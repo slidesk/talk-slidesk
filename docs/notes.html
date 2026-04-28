@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="shortcut icon"
+            href="favicon.svg"
+            sizes="any"
+            type="image/svg+xml"
+        />
+        <title>Speaker View</title>
+        <link rel="stylesheet" href="slidesk.css" /><link rel="stylesheet" href="slidesk-notes.css" /><link href="plugins/@gouz__sbs/sbsNotes.css" rel="stylesheet" /><link href="plugins/@gouz__steps/stepsNotes.css" rel="stylesheet" /><link href="plugins/@gouz__highlightjs/github.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="sd-sv-left">
+            <main id="sd-sv-current" class="sd-app"></main>
+            <main id="sd-sv-future" class="sd-app"></main>
+        </div>
+        <div id="sd-sv-right">
+            <div id="sd-sv-timer">Click to (re)start</div>
+            <div id="sd-sv-subtimer"></div>
+            <aside id="sd-sv-notes"></aside>
+            <div id="sd-open-presentation">
+                <button onclick="window.slidesk.createButtons();" type="button">
+                    Detect
+                </button>
+            </div>
+        </div>
+        <script src="slidesk-notes.js"></script><script src="plugins/@gouz__sbs/sbsNotes.js"></script><script src="plugins/@gouz__steps/stepsNotes.js"></script><script src="plugins/@gouz__highlightjs/highlight.min.js"></script>
+    </body>
+</html>
