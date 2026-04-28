@@ -3,9 +3,10 @@ window.slidesk = {
   slides: [],
   animationTimer: 300,
   onSlideChange: () => {window.slidesk.xtemInit();;window.slidesk.sbs();;;window.slidesk.prepareSteps();;window.slidesk.animateElements();;;},
-  env: {"STARS":82,"CONTRIBUTORS":"6+1","COMMITS":420,"RELEASES":135,"LINES_ADD":130289,"LINES_DEL":178498,"slidesk":{"WIDTH":1920}},
+  env: {"STARS":82,"CONTRIBUTORS":"6+1","COMMITS":420,"RELEASES":135,"LINES_ADD":130289,"LINES_DEL":178498,"slidesk":{"deployed":true}},
   lastAction: "",
-  domain: "localhost"
+  domain: "localhost",
+  deployed: true
 };
 window.slidesk.channel = null;
 
@@ -261,7 +262,8 @@ document.addEventListener("keydown", (e) => {
   if (
     window.location.hostname === window.slidesk.domain ||
     window.location.hostname === "localhost" ||
-    window.location.origin === "file://"
+    window.location.origin === "file://" ||
+    window.slidesk.deployed
   ) {
     if (e.key === "ArrowLeft") {
       window.slidesk.previous();
