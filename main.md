@@ -18,7 +18,7 @@ Sylvain Gougouzian
 
 https://slidesk.link/u/gouz
 
-<div class="sd-qrcode" data-url="https://slidesk.link/u/gouz" style="width: 400px" data-icon="/assets/logos/SD.svg"></div>
+<div class="sd-qrcode" data-url="https://slidesk.link/u/gouz" style="width: 400px" data-icon="assets/logos/SD.svg"></div>
 
 [[/right]]
 
@@ -33,7 +33,7 @@ Accessoirement, maintainer du projet
 
 Source :
 
-<div class="sd-qrcode" data-url="https://github.com/gouz/talk-slidesk" style="width: 400px;" data-icon="/assets/logos/SD.svg"></div>
+<div class="sd-qrcode" data-url="https://github.com/gouz/talk-slidesk" style="width: 400px;" data-icon="assets/logos/SD.svg"></div>
 
 https://github.com/gouz/talk-slidesk
 
